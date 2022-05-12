@@ -10,4 +10,4 @@ RUN npm i npm@latest -g
 
 COPY . .
 
-CMD ["npm","start"]
+CMD ["node","index.js"]
